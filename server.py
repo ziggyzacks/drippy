@@ -1,10 +1,11 @@
+import json
+from pathlib import Path
+
 import RPi.GPIO as gpio
 import paho.mqtt.subscribe as subscribe
+from jinja2 import Template
 from sanic import Sanic
 from sanic import response
-import json
-
-from constants import HTML
 
 app = Sanic()
 
@@ -12,6 +13,10 @@ pin = 25
 gpio.setmode(gpio.BCM)
 gpio.setup(pin, gpio.OUT)
 is_on = False
+
+index_path = Path(__file__).resolve().parent / 'index.html.jinja'
+with open(index_path) as f:
+    home_template = Template(f.read())
 
 
 @app.route("/data")
@@ -29,7 +34,7 @@ def index(request):
     if request.method == 'POST':
         is_on = not is_on
         gpio.output(pin, is_on)
-    return response.html(HTML)
+    return response.html(home_template.render(is_on="on" if is_on else "off"))
 
 
 if __name__ == "__main__":

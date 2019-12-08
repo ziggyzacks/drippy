@@ -32,11 +32,13 @@ class Environment:
             return {
                 'temperature': data.temperature,
                 'pressure': data.pressure,
-                'humidity': data.humidity
+                'humidity': data.humidity,
+                'gas': data.gas_resistance
             }
         else:
             return {
                 'temperature': "",
                 'pressure': "",
-                'humidity': ""
+                'humidity': "",
+                'gas': ""
             }

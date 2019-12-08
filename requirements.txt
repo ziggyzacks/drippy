@@ -2,3 +2,5 @@ adafruit-circuitpython-ads1x15
 RPi.GPIO
 paho-mqtt
 sanic
+jinja2
+boto3
