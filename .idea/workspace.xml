@@ -25,6 +25,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../drippy/producer" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -33,7 +34,15 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../drippy/producer" />
+      <recent name="$PROJECT_DIR$/../drippy/server" />
+      <recent name="$PROJECT_DIR$/../drippy/subscriber" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../drippy/producer" />
+      <recent name="$PROJECT_DIR$/../drippy/server" />
+      <recent name="$PROJECT_DIR$/../drippy/subscriber" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/sensors" />
     </key>
@@ -191,7 +200,7 @@
       <updated>1575692233468</updated>
       <workItem from="1575692235636" duration="7788000" />
       <workItem from="1575731041258" duration="12188000" />
-      <workItem from="1575826857735" duration="5370000" />
+      <workItem from="1575826857735" duration="7752000" />
     </task>
     <servers />
   </component>
