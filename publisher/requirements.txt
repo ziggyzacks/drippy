@@ -1,4 +1,5 @@
 adafruit-circuitpython-ads1x15
+adafruit-circuitpython-tsl2561
 RPi.GPIO
 paho-mqtt
 bme680
